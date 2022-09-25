@@ -2,8 +2,14 @@
 Console.WriteLine("Hello, World!");
 
 TestMethod();
+TestMethod2();
 
 static void TestMethod()
 {
     Console.WriteLine("Hello world");
+}
+
+static void TestMethod2()
+{
+    Console.WriteLine("Hello world again");
 }
