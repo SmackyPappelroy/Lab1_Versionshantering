@@ -3,6 +3,7 @@ Console.WriteLine("Hello, World!");
 
 TestMethod();
 TestMethod2();
+TestMethod3();
 
 static void TestMethod()
 {
@@ -12,4 +13,9 @@ static void TestMethod()
 static void TestMethod2()
 {
     Console.WriteLine("Hello world again");
+}
+
+static void TestMethod3()
+{
+    Console.WriteLine("Fixes issue");
 }
